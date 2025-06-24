@@ -1,0 +1,25 @@
+{
+  "name": "logs-server",
+  "version": "1.0.0",
+  "description": "This server stores application logs in the database MongoDB.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mobeen887/logs-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mobeen887/logs-server/issues"
+  },
+  "homepage": "https://github.com/mobeen887/logs-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.1"
+  }
+}
